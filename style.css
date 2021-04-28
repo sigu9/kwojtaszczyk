@@ -1,0 +1,38 @@
+header {
+	color: #000000;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 1em;
+	padding: 1em;
+	letter-spacing: 0.1em;
+	border: 3px groove #808080;
+	border-radius: 15px;
+	line-height: 0.1em;
+	float: left;
+}
+
+footer {
+	font-weight: bold;
+	font-size: xx-large;
+	margin: 1em;
+	padding: 1em;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	text-align: center;
+	background: #cccccc;
+}
+
+
+@media (min-width: 992px) {
+	.col-lg-4 {width: 20;}
+	.col-lg-6 {width: 50%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {width: 50%;}
+	.col-md-12 {width: 100%;}
+}
+
+@media (max-width: 767px) {
+	.col-sm-12 {width: 100%;}
+}
+
